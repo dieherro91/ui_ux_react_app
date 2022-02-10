@@ -4,10 +4,8 @@ import './App.css';
 import {Footer,Blog,Features,Header,Possibility,WhatGPT3} from './containers'
 import {CTA,Brand,Navbar,} from './components'
 
-function App() {
-  const cos:string="hallo";
-  
-  console.log('cos', cos);
+const App:React.FC =()=> {
+   
   return (
     <div className="App">
       <div className='gradient_bg'>
