@@ -1,13 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
+import {Footer,Blog,Features,Header,Possibility,WhatGPT3} from './containers'
+import {CTA,Brand,Navbar,} from './components'
+
+const App:React.FC =()=> {
+   
   return (
     <div className="App">
-      <header className="App-header">
-        
-      </header>
+      <div className='gradient_bg'>
+        <Navbar/>
+        <Header/>
+      </div>
+      <div>
+        <Brand/>
+        <WhatGPT3/>
+        <Features/>
+        <Possibility/>
+        <CTA/>
+        <Blog/>
+        <Footer/>
+      </div>
     </div>
   );
 }
